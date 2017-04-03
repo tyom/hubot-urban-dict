@@ -75,7 +75,7 @@ let UrbanDict = {
 
 
 module.exports = (robot) => {
-  robot.respond(/what ?([i']s ?a?) ([^?]*)[?]*/i, (res) => {
+  robot.respond(/what ?([i'’]s ?a?) ([^?]*)[?]*/i, (res) => {
     const searchTerm = res.match[2]
     const shouldRandomiseResult =  res.match[1].match(/ ?['i]s a/)
 
