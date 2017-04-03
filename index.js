@@ -1,9 +1,11 @@
-// Description:
-//   Gives an Urban Dictionary definition for a given word.
-
-// Commands:
-//   hubot what('s| is) <word>    = <details> - top result from the results list. Repeated requests cycle through the list
-//   hubot what('s | is) a <word> = <details> - a random result from the list
+/*
+ * Description:
+ *   Gives an Urban Dictionary definition for a given word.
+ *
+ * Commands:
+ *   hubot what('s| is) <word>    = <details> - top result from the results list. Repeated requests cycle through the list
+ *   hubot what('s | is) a <word> = <details> - a random result from the list
+ */
 
 const axios = require('axios')
 const sample = require('lodash/sample')
