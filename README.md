@@ -7,7 +7,7 @@ Gives an Urban Dictionary definition for a given word.
 In hubot project repo, run:
 
 ```bash
-npm install tyom/hubot-urban-dict --save
+npm install hubot-urban-dict --save
 ```
 
 Then add `hubot-urban-dict` to your `external-scripts.json`:
